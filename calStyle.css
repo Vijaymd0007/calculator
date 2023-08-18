@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Dancing+Script:wght@600&family=Inter&family=Josefin+Sans:wght@100;200;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,900&family=Satisfy&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #000;
+}
+ .body
+ {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	height:70vh;
+ 	/* background-color:black; */
+ 	color: #fff;
+	border:2px solid black;
+	overflow-y: hidden;
+	overflow-x: hidden;
+ }
+
+ h1{
+	filter: drop-shadow(10px 10px 100px #e84393);
+	color:#e84393;
+	/* background-color:black; */
+	text-align: center;
+	padding:50px 30%;
+	display: inline-block;
+	font-size: 5rem;
+	font-family: 'Dancing Script', cursive; 
+	
+
+}
+ 
+ .calculator
+ {
+ 	position: relative;
+ 	display: grid;
+	 background-color:#2d3436;
+	 
+	 
+ }
+ 
+ .calculator .inputBar
+
+ {
+ 	grid-column: span 4;
+ 	height: 100px;
+ 	text-align: center;
+ 	border:none;
+ 	outline: none;
+ 	padding: 10px;
+ 	font-size: 20px;
+ 	background: #fff;
+ 	color: #000;
+
+ }
+ .calculator span
+ {
+ 	display: grid;
+ 	width: 60px;
+ 	height: 60px;
+ 	font-size: 20px;
+ 	place-items:center;
+ 	border: 1px solid rgba(0,0,0,.1);
+ }
+ 
+ 
+ .calculator span:active , span:hover
+ {
+ 	background: #0fb9b1;
+ 	color: #111;
+ }
+ 
+ 
+  .calculator span.clear
+ {
+ 	grid-column: span 2;
+ 	width: 120px;
+ 	font-size: 24px;
+ 	background-color: #e84393;
+
+ }
+ .calculator span.plus
+ {
+ 	grid-row: span 2;
+ 	height: 120px;
+} 
+
